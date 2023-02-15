@@ -1,0 +1,39 @@
+body,
+html {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+body {
+  background: url("https://t4.ftcdn.net/jpg/02/67/11/29/360_F_267112986_Pm82f8DJQXtyETYqmZd2dnSicXiGKxYa.jpg") no-repeat;
+  background-size: cover;
+}
+
+div {
+  border: 2px solid rgb(233 1 1);
+  border-radius: 13px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle, rgb(212 9 9 / 100%) 17%, rgb(158 18 18 / 100%) 50%, rgb(167 13 13 / 100%) 90%);
+  color: white;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+button {
+  padding: 10px 30px;
+  border-radius: 13px;
+  border: 2px solid blue;
+  font-size: 1.3rem;
+  background-color: rgb(48 122 233);
+  color: white;
+}
